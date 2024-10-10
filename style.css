@@ -1,0 +1,167 @@
+/* General reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Navigation Bar */
+.navbar {
+    background-color: #67d57d; /* Optional: Set background color */
+    padding: 20px 0; /* Add padding to the navbar for spacing */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for some depth */
+}
+
+.navbar .container {
+    display: flex;
+    justify-content: space-between; /* Space between the logo and the navigation */
+    align-items: center; /* Vertically center the items */
+}
+
+.navbar .logo {
+    font-size: 34px;
+    font-weight: bold;
+    color: #333; /* Set logo color */
+    text-decoration: none; /* Remove underline */
+    margin-right: 40px; /* Add spacing between the logo and the navigation */
+}
+
+.navbar ul {
+    list-style: none; /* Remove bullet points from the list */
+    display: flex; /* Display the list items in a row */
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    margin-right: 30px; /* Add spacing between each menu item */
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #333; /* Set link color */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+}
+
+.navbar ul li a:hover {
+    color: #e19797; /* Change color on hover */
+}
+
+.schedule-btn {
+    background-color: #09b03b; /* Set button color */
+    color: white; /* White text */
+    padding: 10px 20px; /* Add padding to the button */
+    border-radius: 5px; /* Rounded corners */
+    text-decoration: none;
+    font-size: 16px;
+    margin-left: 40px; /* Add space between the last menu item and the button */
+    transition: background-color 0.3s ease; /* Smooth transition on hover */
+}
+
+.schedule-btn:hover {
+    background-color: #b98387; /* Darker button color on hover */
+}
+
+
+/* Hero Section */
+.hero-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 0;
+    background-color: #c7dbc4;
+    position: relative;
+}
+
+.hero-content {
+    max-width: 50%;
+}
+
+.hero-content h1 {
+    font-size: 48px;
+    line-height: 1.2;
+    color: #333;
+}
+
+.hero-content .highlight {
+    color: #097e36;
+}
+
+.hero-content p {
+    font-size: 20px;
+    margin: 20px;
+}
+
+.btn-primary {
+    background-color: #58956b;
+    color: white;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 20px;
+    transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+    background-color: #e08787;
+}
+
+/* Hero Image */
+.hero-image {
+    flex-shrink: 0;
+    width: 40%; /* Adjust the width as needed */
+    position: absolute;  /* Position the image relative to its container */
+    right: 0; /* Align the image to the right side */
+    top: 50%; 
+    transform: translateY(-50%);
+}
+
+.hero-image img {
+    width: 50%;
+    max-width: 500px;
+    border-radius: 10px;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #deafaf;  /* Dark background for the footer */
+    padding: 20px 0;  /* Padding for space inside the footer */
+    color: #fff;  /* White text color for contrast */
+    text-align: center; /* Center-align text */
+}
+
+footer .contact-info {
+    display: flex;
+    justify-content: space-around;  /* Spread items evenly */
+    flex-wrap: wrap; /* Allow items to wrap on smaller screens */
+    align-items: center; /* Center items vertically */
+}
+
+footer .contact-info p {
+    margin: 10px 20px; /* Margin around the items for spacing */
+    font-size: 16px; /* Text size */
+    color: white; /* White text */
+}
+
+footer .contact-info p a {
+    color: #987f7f; /* Add color to links (optional) */
+    text-decoration: none; /* Remove underline from links */
+}
+
+footer .contact-info p a:hover {
+    text-decoration: underline; /* Add underline on hover */
+}
+
+
+
+/* Container */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
